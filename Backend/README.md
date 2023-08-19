@@ -1,0 +1,7 @@
+# pruebatecnica_S_A_G
+
+1. se creo la api en un entorno virtual para manejar las verisones de manera independiente si se tiene intalado python solo es activar el entorno virtual con el editor de codigo o si no solo con el comando ".\venv\Scripts\activate" se recomienda verificar si se tiene intalado python con el comando "python --version" despues de tener python se instala djando para crear la api se inatala con el comando "pip install django " despues se puede verificar que toda la instalacion salio orrecto levantando el servicio con pythom manage.py runserver  hay va toda la creacion de la api meter los comandos de django api y eso contar de la instalacionn de frame_wor rest_api inatalas cors header para permitir habilitar el local host del front y comentar que se debe realizar la migrate para quitar la falla o el warnin cuando se levanta el puerto 
+hay que hacer un diagrama explicanto como se esta dividiendo la api en varios servicios para manejar diferestes servicios eso ests en el siguiente video revisarlo "https://www.youtube.com/watch?v=e6PkGDH4wWA" eso esta en el comienzo de el video hay que apoyar todo el codigo con imagenes y cuadros si se puede expliacr lo de la base de datos  hacer un buen readmi 
+
+
+ya se creo la api vamos hacer el modelo de la base de datos en el model.py de la carpeta de task se crea la tabla task que se ereda desde models esto es para crear la tabla despues de que se hace la tabla se debe hacer la migrations del modelo
